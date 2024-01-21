@@ -1,0 +1,143 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color:  #4169e1;
+}
+
+.navbar {
+    background-color: rgba(1, 66, 28, 0.3);
+    backdrop-filter: blur(20px); /* Ajuste o valor do desfoque conforme necessário */
+    border: 1px solid rgba(2, 15, 7, 0.3); /* Adicione uma borda opcional para destacar o efeito */
+    box-shadow: 0px 0px 10px 2px rgba(6, 98, 236, 0.3);
+}
+
+.nav .nav-link:hover {
+    background-color: rgb(2, 15, 7);
+    color: white;
+}
+
+.nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover {
+    color: rgb(2, 15, 7);
+}
+
+.navbar-brand {
+    font-family: 'Pacifico', cursive;
+}
+
+.ele {
+    color: rgb(95, 206, 95);
+}
+
+.ele2 {
+    color: #c52a3c;
+}
+
+.navbar-toggler {
+    background-color: aqua;
+}
+
+
+.carousel-indicator {
+    text-align: center;
+}
+
+#sobre-restaurante {
+    background-color:transparent;
+    color: white;
+    
+}
+.pix {
+    color:  rgb(2, 15, 7);
+    font-family: 'Pacifico', cursive;
+}
+
+#sobre-restaurante img {
+    max-height: 400px;
+    margin-right: 40px;
+}
+.pix2 {
+    color:  rgb(2, 15, 7);
+}
+
+#eventos {
+    background-color: rgba(1, 66, 28, 0.3);
+    backdrop-filter: blur(20px); /* Ajuste o valor do desfoque conforme necessário */
+    border: 1px solid rgba(2, 15, 7, 0.3); /* Adicione uma borda opcional para destacar o efeito */
+    box-shadow: 0px 0px 10px 2px rgba(6, 98, 236, 0.3);
+    color: orangered;
+}
+
+#contato {
+    background-color: bisque;
+}
+
+.nav-cardapio .nav-link-active {
+    background-color: burlywood;
+    color: white;
+    border-radius: 8px;
+    border-color: bisque;
+
+}
+
+.nav-cardapio .nav-link:hover {
+    background-color: rgb(227, 248, 248);
+    color:burlywood;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+    justify-content: space-around;
+    padding:12px;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+#contato button {
+    background-color: rgba(1, 66, 28, 0.38);
+}
+
+#sl {
+    margin-top: 8%;
+}
+
+.dot {
+    position: absolute;
+    width: 6vw;
+    height: 6vw;
+    background-color: rgba(59, 227, 255, 0.2);
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px 2px rgba(6, 98, 236, 0.3);
+    overflow: hidden;
+    backdrop-filter: blur(12px);
+    opacity: 0.8;
+    /* Opacidade para um efeito de transparência */
+    background: radial-gradient(circle at 50% 30%, rgba(255, 145, 255, 0.2) 0%, rgba(41, 152, 172, 0.3) 60%);
+    /* Gradiente para um efeito mais natural */
+    z-index: -1;
+}
+
+.dots-container {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.div-container {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+@media (max-width= 767px) {
+
+
+    .carousel-item img {
+        height: 280px;
+
+
+    }
+    
+}
