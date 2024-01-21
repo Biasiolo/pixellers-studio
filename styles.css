@@ -122,8 +122,8 @@ body {
 
 .dot {
     position: absolute;
-    width: 6vw;
-    height: 6vw;
+    width: 100px;
+    height: 100px;
     background-color: rgba(177, 59, 255, 0.3);
     border-radius: 50%;
     box-shadow: 0px 0px 4px 2px rgba(6, 228, 236, 0.2);
