@@ -148,7 +148,9 @@ body {
 }
 
 @media (max-width= 767px) {
-
+    #sobre img {
+        max-height: 280px;
+    }
 
     
 }
