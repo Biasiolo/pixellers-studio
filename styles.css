@@ -11,7 +11,7 @@ body {
 }
 
 .nav .nav-link:hover {
-    background-color:rgba(1, 62, 66, 0.3);
+    background-color:rgba(1, 62, 66, 1);
     color: rgb(95, 206, 95);
 }
 
@@ -150,10 +150,5 @@ body {
 @media (max-width= 767px) {
 
 
-    .carousel-item img {
-        height: 280px;
-
-
-    }
     
 }
