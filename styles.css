@@ -64,7 +64,7 @@ body {
 
 #eventos {
     background-color: rgba(1, 66, 28, 0.3);
-    backdrop-filter: blur(10px); /* Ajuste o valor do desfoque conforme necessário */
+    backdrop-filter: blur(20px); /* Ajuste o valor do desfoque conforme necessário */
     border: 1px solid rgba(2, 15, 7, 0.3); /* Adicione uma borda opcional para destacar o efeito */
     box-shadow: 0px 0px 10px 2px rgba(6, 98, 236, 0.3);
     color: rgb(2, 15, 7);
@@ -80,7 +80,7 @@ body {
 
 .cardcat:hover {
     background-color:rgba(1, 62, 66, 0.3);
-    transform: scale(1.1);
+    transform: scale(1.05);
 
 }
 
@@ -124,14 +124,14 @@ body {
     position: absolute;
     width: 6vw;
     height: 6vw;
-    background-color: rgba(59, 227, 255, 0.2);
+    background-color: rgba(177, 59, 255, 0.3);
     border-radius: 50%;
-    box-shadow: 0px 0px 10px 2px rgba(6, 98, 236, 0.3);
+    box-shadow: 0px 0px 4px 2px rgba(6, 228, 236, 0.2);
     overflow: hidden;
     backdrop-filter: blur(12px);
     opacity: 0.8;
     /* Opacidade para um efeito de transparência */
-    background: radial-gradient(circle at 50% 30%, rgba(255, 145, 255, 0.2) 0%, rgba(41, 152, 172, 0.3) 60%);
+    background: radial-gradient(circle at 40% 20%, rgba(177, 59, 255, 0.2) 0%, rgba(88, 173, 194, 0.3) 60%);
     /* Gradiente para um efeito mais natural */
     z-index: -1;
 }
