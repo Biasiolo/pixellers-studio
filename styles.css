@@ -78,8 +78,9 @@ body {
     font-weight: 600;
 }
 
+
 .categoriah3 {
-    color:rgb(2, 15, 7);
+    color:black;
     font-size: 22px;
     margin-top: 12px;
     font-weight: 500;
@@ -103,17 +104,29 @@ body {
     background-color: bisque;
 }
 
-.nav-cardapio .nav-link-active {
-    background-color: burlywood;
-    color: white;
-    border-radius: 8px;
-    border-color: bisque;
 
+aside {
+    font-size: 16px;
+    width: 100%;
 }
 
-.nav-cardapio .nav-link:hover {
-    background-color: rgb(227, 248, 248);
-    color:burlywood;
+.nav-service .nav-link-active {
+    background-color:black;
+    color: 	#009246;
+    border-radius: 8px;
+}
+
+.nav-service .nav-link:hover {
+    background-color:black;
+    color: 	#009246;
+}
+
+.card {
+    background-color: rgba(248, 250, 249, 0.6);
+    backdrop-filter: blur(10px); /* Ajuste o valor do desfoque conforme necessário */
+    color: black;
+
+    box-shadow: 0px 0px 10px 2px rgba(6, 98, 236, 0.3);
 }
 
 .social-links li {
