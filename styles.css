@@ -13,7 +13,7 @@ body {
 
 .nav .nav-link:hover {
     background-color:black;
-    color: rgb(95, 206, 95);
+    color: 	#009246;
 }
 
 
@@ -63,21 +63,32 @@ body {
     color:  rgb(2, 15, 7);
 }
 
-#eventos {
+#categorias {
     background-color: rgba(1, 66, 28, 0.3);
     backdrop-filter: blur(20px); /* Ajuste o valor do desfoque conforme necessário */
     border: 1px solid rgba(2, 15, 7, 0.3); /* Adicione uma borda opcional para destacar o efeito */
     box-shadow: 0px 0px 10px 2px rgba(6, 98, 236, 0.3);
     color: rgb(2, 15, 7);
+    
+}
+
+.section-title {
+    color:rgb(95, 206, 95);
+    text-shadow: 1px 1px 2px rgb(2, 15, 7);
+    font-weight: 600;
 }
 
 .categoriah3 {
-    color:rgb(95, 206, 95);
+    color:rgb(2, 15, 7);
+    font-size: 22px;
+    margin-top: 12px;
+    font-weight: 500;
 }
 
 .textop {
     color: white;
-    margin-bottom: 0;
+    margin-bottom: 20px;
+    font-size: 18px;
 }
 
 .cardcat:hover {
@@ -156,9 +167,19 @@ body {
         max-height: 280px;
     }
 
+    #categorias img {
+        max-height: 120px;
+    }
+
     .dots-container {
         width: 100%; /* ou outra unidade fixa ou porcentagem desejada */
         overflow-x: hidden;
+    }
+
+    .textop {
+        color: white;
+        margin-bottom: 30px;
+        font-size: 18px;
     }
 
     
