@@ -13,7 +13,7 @@ body {
 
 .nav .nav-link:hover {
     background-color:black;
-    color: 	#009246;
+    color: rgb(95, 206, 95);
 }
 
 
@@ -34,7 +34,7 @@ body {
 }
 
 .ele2 {
-    color: #c52a3c;
+    color: rgb(197, 42, 60);
 }
 
 .navbar-toggler {
@@ -64,9 +64,9 @@ body {
 }
 
 #categorias {
-    background-color: rgba(1, 66, 28, 0.3);
-    backdrop-filter: blur(20px); /* Ajuste o valor do desfoque conforme necessário */
-    border: 1px solid rgba(2, 15, 7, 0.3); /* Adicione uma borda opcional para destacar o efeito */
+    background-color: rgba(8, 9, 70, 0.6);
+    backdrop-filter: blur(10px); /* Ajuste o valor do desfoque conforme necessário */
+
     box-shadow: 0px 0px 10px 2px rgba(6, 98, 236, 0.3);
     color: rgb(2, 15, 7);
     
@@ -74,16 +74,20 @@ body {
 
 .section-title {
     color:rgb(95, 206, 95);
-    text-shadow: 1px 1px 2px rgb(2, 15, 7);
+
     font-weight: 600;
+}
+
+.cardcat i {
+    color:rgb(206, 43, 55);
 }
 
 
 .categoriah3 {
-    color:black;
+    color:rgb(95, 206, 95);
     font-size: 22px;
     margin-top: 12px;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .textop {
@@ -93,8 +97,8 @@ body {
 }
 
 .cardcat:hover {
-    background-color:rgba(1, 62, 66, 0.3);
-    transform: scale(1.05);
+    background-color:rgba(8, 9, 70, 0.6);
+    transform: scale(1.03);
 }
 .cardcat p {
     margin-bottom: 0;
@@ -108,17 +112,18 @@ body {
 aside {
     font-size: 16px;
     width: 100%;
+    font-weight: 600;
 }
 
 .nav-service .nav-link-active {
     background-color:black;
-    color: 	#009246;
+    color: 	rgb(95, 206, 95);
     border-radius: 8px;
 }
 
 .nav-service .nav-link:hover {
     background-color:black;
-    color: 	#009246;
+    color: 	rgb(95, 206, 95);
 }
 
 .card {
