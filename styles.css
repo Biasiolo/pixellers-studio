@@ -162,6 +162,15 @@ aside {
     background-color: rgba(1, 66, 28, 0.38);
 }
 
+#contato {
+    background-color: rgba(8, 9, 70, 0.6);
+    backdrop-filter: blur(10px);
+    /* Ajuste o valor do desfoque conforme necessário */
+
+    box-shadow: 0px 0px 10px 2px rgba(6, 98, 236, 0.3);
+    color: rgb(2, 15, 7);
+}
+
 #sl {
     margin-top: 8%;
 }
