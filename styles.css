@@ -1,18 +1,20 @@
 body {
     font-family: 'Roboto', sans-serif;
-    background-color:  #4169e1;
+    background-color: #4169e1;
     max-width: 100vw;
 }
 
 .navbar {
     background-color: rgba(1, 66, 28, 0.3);
-    backdrop-filter: blur(20px); /* Ajuste o valor do desfoque conforme necessário */
-    border: 1px solid rgba(2, 15, 7, 0.3); /* Adicione uma borda opcional para destacar o efeito */
+    backdrop-filter: blur(20px);
+    /* Ajuste o valor do desfoque conforme necessário */
+    border: 1px solid rgba(2, 15, 7, 0.3);
+    /* Adicione uma borda opcional para destacar o efeito */
     box-shadow: 0px 0px 10px 2px rgba(6, 98, 236, 0.3);
 }
 
 .nav .nav-link:hover {
-    background-color:black;
+    background-color: black;
     color: rgb(95, 206, 95);
 }
 
@@ -47,44 +49,47 @@ body {
 }
 
 #sobre {
-    background-color:transparent;
+    background-color: transparent;
     color: white;
-    align-items: center;    
+    align-items: center;
 }
+
 .pix {
-    color:  rgb(2, 15, 7);
+    color: rgb(2, 15, 7);
     font-family: 'Pacifico', cursive;
 }
 
 #sobre img {
     max-height: 340px;
 }
+
 .pix2 {
-    color:  rgb(2, 15, 7);
+    color: rgb(2, 15, 7);
 }
 
 #categorias {
     background-color: rgba(8, 9, 70, 0.6);
-    backdrop-filter: blur(10px); /* Ajuste o valor do desfoque conforme necessário */
+    backdrop-filter: blur(10px);
+    /* Ajuste o valor do desfoque conforme necessário */
 
     box-shadow: 0px 0px 10px 2px rgba(6, 98, 236, 0.3);
     color: rgb(2, 15, 7);
-    
+
 }
 
 .section-title {
-    color:rgb(95, 206, 95);
+    color: rgb(95, 206, 95);
 
     font-weight: 600;
 }
 
 .cardcat i {
-    color:rgb(206, 43, 55);
+    color: #ce2b37;
 }
 
 
 .categoriah3 {
-    color:rgb(95, 206, 95);
+    color: rgb(95, 206, 95);
     font-size: 22px;
     margin-top: 12px;
     font-weight: 600;
@@ -97,9 +102,10 @@ body {
 }
 
 .cardcat:hover {
-    background-color:rgba(8, 9, 70, 0.6);
+    background-color: rgba(8, 9, 70, 0.6);
     transform: scale(1.03);
 }
+
 .cardcat p {
     margin-bottom: 0;
 }
@@ -116,19 +122,20 @@ aside {
 }
 
 .nav-service .nav-link-active {
-    background-color:black;
-    color: 	rgb(95, 206, 95);
+    background-color: black;
+    color: #5fce5f;
     border-radius: 8px;
 }
 
 .nav-service .nav-link:hover {
-    background-color:black;
-    color: 	rgb(95, 206, 95);
+    background-color: black;
+    color: rgb(95, 206, 95);
 }
 
 .card {
     background-color: rgba(248, 250, 249, 0.6);
-    backdrop-filter: blur(10px); /* Ajuste o valor do desfoque conforme necessário */
+    backdrop-filter: blur(10px);
+    /* Ajuste o valor do desfoque conforme necessário */
     color: black;
 
     box-shadow: 0px 0px 10px 2px rgba(6, 98, 236, 0.3);
@@ -138,7 +145,7 @@ aside {
     list-style: none;
     display: inline;
     justify-content: space-around;
-    padding:12px;
+    padding: 12px;
 }
 
 .social-links a {
@@ -180,7 +187,7 @@ aside {
     max-height: 100%;
 }
 
-@media (max-width= 767px) {
+@media (max-width=767px) {
     #sobre img {
         max-height: 280px;
     }
@@ -190,7 +197,8 @@ aside {
     }
 
     .dots-container {
-        width: 100%; /* ou outra unidade fixa ou porcentagem desejada */
+        width: 100%;
+        /* ou outra unidade fixa ou porcentagem desejada */
         overflow-x: hidden;
     }
 
@@ -200,5 +208,5 @@ aside {
         font-size: 18px;
     }
 
-    
+
 }
