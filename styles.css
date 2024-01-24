@@ -101,6 +101,10 @@ body {
     margin-bottom: 0;
 }
 
+#service {
+    color: black;
+}
+
 /* barra lateral */
 aside {
     font-size: 16px;
@@ -148,20 +152,14 @@ aside {
     margin-top: 0;
 }
 
-.social-links li {
-    list-style: none;
-    display: inline;
-    justify-content: space-around;
-    padding: 12px;
-}
-
-.social-links a {
-    text-decoration: none;
-}
-
 #contato button {
     background-color: #25D366;
     color: rgb(2, 15, 7);
+}
+
+#contato button:hover {
+    transform: scale(1.04);
+
 }
 
 #contato {
@@ -172,11 +170,21 @@ aside {
 }
 
 .formu {
-    color: white;
+    color: #25D366;
 }
+.form-control:focus {
+    border-color: #25D366; /* Cor de destaque quando em foco */
+    box-shadow: 0 0 0 0.2rem rgba(6, 98, 236, 0.3); /* Sombra de destaque */
+    outline: 0; /* Remova a borda de destaque padrão no Firefox */
+}
+
 
 #sl {
     margin-top: 8%;
+}
+
+footer {
+    font-size: 14px;;
 }
 
 /*ajustes animação bolhas*/
