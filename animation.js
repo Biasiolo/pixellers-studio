@@ -34,9 +34,15 @@ function animateBubbles() {
     $(".dot").each(function (index) {
         var dot = $(this);
 
+        // Limites do espaço permitido (90% da área central)
+        var minX = window.innerWidth * 0.05;
+        var maxX = window.innerWidth * 0.95 - dot.width();
+        var minY = window.innerHeight * 0.05;
+        var maxY = window.innerHeight * 0.95 - dot.height();
+
         // Animação de movimento aleatório dentro da área visível
-        var randomX = Math.random() * (window.innerWidth - dot.width());
-        var randomY = Math.random() * (window.innerHeight - dot.height());
+        var randomX = Math.random() * (maxX - minX) + minX;
+        var randomY = Math.random() * (maxY - minY) + minY;
 
         dot.animate(
             {
