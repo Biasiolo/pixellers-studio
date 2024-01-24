@@ -414,8 +414,7 @@
             </div>
             <div class="row justify-content-center">
                 <div class="text-center col-md-6">
-                    <form action="https://api.whatsapp.com/send" method="GET" target="_blank">
-                        <input type="hidden" name="phone" value="+5511985888874">
+                    <form id="whatsappForm">
                         <div class="mb-3">
                             <label for="nome" class="form-label fw-bold">Seu Nome</label>
                             <input type="text" id="nome" name="nome" class="form-control">
@@ -424,12 +423,21 @@
                             <label for="mensagem" class="form-label fw-bold">Mensagem</label>
                             <textarea id="mensagem" name="mensagem" class="form-control"></textarea>
                         </div>
-                        <button type="submit" class="btn btn-success fw-bold">
+                        <button type="button" class="btn btn-success fw-bold" onclick="enviarWhatsApp()">
                             <i class="bi bi-whatsapp"></i> Iniciar Conversa no WhatsApp
                         </button>
                     </form>
                 </div>
             </div>
+            
+            <script>
+                function enviarWhatsApp() {
+                    var nome = document.getElementById("nome").value;
+                    var mensagem = document.getElementById("mensagem").value;
+                    var linkWhatsApp = "https://api.whatsapp.com/send?phone=+5511985888874&text=Olá, gostaria de mais informações. Meu nome é " + encodeURIComponent(nome) + ". " + encodeURIComponent(mensagem);
+                    window.open(linkWhatsApp, '_blank');
+                }
+            </script>
             <div class="row justify-content-center">
                 <div class="col-md-6 text-center">
                     <h3 class="fs-4 pt-4">
