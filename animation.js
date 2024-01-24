@@ -10,9 +10,9 @@ function createBubbles() {
     // Crie um contêiner para os pontos
     var dotsContainer = $("<div>").addClass("dots-container").appendTo(".div-container");
 
+    // Adicione uma margem lateral
     dotsContainer.css({
         padding: "10px",
-        overflowX: "hidden",
     });
 
     // Número de pontos
@@ -21,10 +21,10 @@ function createBubbles() {
     for (var i = 0; i < numberOfDots; i++) {
         var dot = $("<div>").addClass("dot").appendTo(dotsContainer);
 
-        // Inicie cada ponto com posição dentro da área visível e opacidade aleatórias
+        // Inicie cada ponto no centro da tela com opacidade aleatória
         dot.css({
-            left: Math.random() * (window.innerWidth - dot.width()),
-            top: Math.random() * (window.innerHeight - dot.height()),
+            left: window.innerWidth / 2 - dot.width() / 2,
+            top: window.innerHeight / 2 - dot.height() / 2,
             opacity: Math.random(),
         });
     }
