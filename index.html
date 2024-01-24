@@ -410,61 +410,33 @@
     <section id="contato" class="pt-4 pb-3">
         <div class="container">
             <div class="row">
-                <h2 class="text-center pt-4 pb-3">Fale Conosco</h2>
+                <h2 class="text-center pt-4 pb-3">Contato</h2>
             </div>
-            <div class="row">
-                <div class="col-md-7">
-                    <form>
+            <div class="row justify-content-center">
+                <div class="text-center col-md-6">
+                    <form action="https://api.whatsapp.com/send" method="GET" target="_blank">
+                        <input type="hidden" name="phone" value="+5511985888874">
                         <div class="mb-3">
                             <label for="nome" class="form-label fw-bold">Seu Nome</label>
-                            <input type="text" id="nome" class="form-control">
-                        </div>
-                        <div class="mb-3">
-                            <label for="email" class="form-label fw-bold">Email</label>
-                            <input type="email" id="email" class="form-control">
-                        </div>
-                        <div class="mb-3">
-                            <label for="telefone" class="form-label fw-bold">Telefone</label>
-                            <input type="tel" id="telefone" class="form-control">
+                            <input type="text" id="nome" name="nome" class="form-control">
                         </div>
                         <div class="mb-3">
                             <label for="mensagem" class="form-label fw-bold">Mensagem</label>
-                            <textarea id="mensagem" class="form-control"></textarea>
+                            <textarea id="mensagem" name="mensagem" class="form-control"></textarea>
                         </div>
-                        <button type="submit" class="btn fw-bold">Enviar</button>
+                        <button type="submit" class="btn btn-success fw-bold">
+                            <i class="bi bi-whatsapp"></i> Iniciar Conversa no WhatsApp
+                        </button>
                     </form>
                 </div>
-                <div class="col-md-5 text-center" id="sl">
-                    <div class="row">
-                        <h3 class="fs-4 pb-4">
-                            <i class="bi bi-hand-thumbs-up-fill"></i>
-                            Redes Sociais
-                        </h3>
-                        <ul class="social-links">
-                            <li class="fs-3">
-                                <a href="#">
-                                    <i class="bi bi-facebook"></i>
-                                </a>
-                            </li>
-                            <li class="fs-3">
-                                <a href="#">
-                                    <i class="bi bi-instagram"></i>
-                                </a>
-                            </li>
-                            <li class="fs-3">
-                                <a href="#">
-                                    <i class="bi bi-whatsapp"></i>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="row">
-                        <h3 class="fs-4 pt-4">
-                            <i class="bi bi-cursor-fill"></i>
-                            Endereço
-                        </h3>
-                        <p>Rua Teste Teste, 32 - Vila Teste - São Paulo - SP</p>
-                    </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-6 text-center">
+                    <h3 class="fs-4 pt-4">
+                        <i class="bi bi-cursor-fill"></i>
+                        Endereço
+                    </h3>
+                    <p>Rua Teste Teste, 32 - Vila Teste - São Paulo - SP</p>
                 </div>
             </div>
         </div>
