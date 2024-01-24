@@ -16,31 +16,22 @@ function createBubbles() {
     for (var i = 0; i < numberOfDots; i++) {
         var dot = $("<div>").addClass("dot").appendTo(dotsContainer);
 
-        // Inicie cada ponto com posição centralizada e opacidade aleatórias
+        // Inicie cada ponto com posição dentro da área visível e opacidade aleatórias
         dot.css({
-            left: window.innerWidth * 0.25 + Math.random() * window.innerWidth * 0.5,
-            top: window.innerHeight * 0.1 + Math.random() * (window.innerHeight * 0.6),
+            left: Math.random() * (window.innerWidth - dot.width()),
+            top: Math.random() * (window.innerHeight - dot.height()),
             opacity: Math.random(),
         });
     }
 }
 
 function animateBubbles() {
-    var allowedAreaX = {
-        min: window.innerWidth * 0.1,
-        max: window.innerWidth * 0.9,
-    };
-    var allowedAreaY = {
-        min: window.innerHeight * 0.1,
-        max: window.innerHeight * 0.9,
-    };
-
     $(".dot").each(function (index) {
         var dot = $(this);
 
-        // Animação de movimento aleatório dentro da área central
-        var randomX = allowedAreaX.min + Math.random() * (allowedAreaX.max - allowedAreaX.min);
-        var randomY = allowedAreaY.min + Math.random() * (allowedAreaY.max - allowedAreaY.min);
+        // Animação de movimento aleatório dentro da área visível
+        var randomX = Math.random() * (window.innerWidth - dot.width());
+        var randomY = Math.random() * (window.innerHeight - dot.height());
 
         dot.animate(
             {
