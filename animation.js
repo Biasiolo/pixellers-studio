@@ -10,6 +10,11 @@ function createBubbles() {
     // Crie um contêiner para os pontos
     var dotsContainer = $("<div>").addClass("dots-container").appendTo(".div-container");
 
+    dotsContainer.css({
+        padding: "10px",
+        overflowX: "hidden",
+    });
+
     // Número de pontos
     var numberOfDots = 40;
 
