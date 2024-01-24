@@ -131,7 +131,7 @@
         </div>
     </section>
     <section id="service">
-        <div class="container">
+        <div class="container pb-5">
             <div class="row">
                 <h2 class="section-title mb-2 text-center pt-4 pb-3">Serviços</h2>
             </div>
@@ -407,25 +407,27 @@
             </div>
         </div>
     </section>
-    <section id="contato" class="pt-4 pb-3">
+    <section id="contato" class="pt-2 pb-3">
         <div class="container">
             <div class="row">
-                <h2 class="text-center pt-4 pb-3">Contato</h2>
+                <h2 class="text-center pt-4 pb-3 section-title">Contato</h2>
             </div>
             <div class="row justify-content-center">
-                <div class="text-center col-md-6">
+                <div class="col-md-5">
                     <form id="whatsappForm">
-                        <div class="mb-3">
+                        <div class="mb-2 formu">
                             <label for="nome" class="form-label fw-bold">Seu Nome</label>
                             <input type="text" id="nome" name="nome" class="form-control">
                         </div>
-                        <div class="mb-3">
+                        <div class="mb-4 formu">
                             <label for="mensagem" class="form-label fw-bold">Mensagem</label>
                             <textarea id="mensagem" name="mensagem" class="form-control"></textarea>
                         </div>
-                        <button type="button" class="btn btn-success fw-bold" onclick="enviarWhatsApp()">
-                            <i class="bi bi-whatsapp"></i> Iniciar Conversa no WhatsApp
-                        </button>
+                        <div class="text-center">
+                            <button type="button" class="btn btn-success fw-bold mb-4" onclick="enviarWhatsApp()">
+                                <i class="bi bi-whatsapp"></i> Iniciar Conversa no WhatsApp
+                            </button></div>
+                        
                     </form>
                 </div>
             </div>
@@ -434,7 +436,7 @@
                 function enviarWhatsApp() {
                     var nome = document.getElementById("nome").value;
                     var mensagem = document.getElementById("mensagem").value;
-                    var linkWhatsApp = "https://api.whatsapp.com/send?phone=+5511985888874&text=Olá, gostaria de mais informações. Meu nome é " + encodeURIComponent(nome) + ". " + encodeURIComponent(mensagem);
+                    var linkWhatsApp = "https://api.whatsapp.com/send?phone=+5511985888874&text=Olá, gostaria de mais informações. Meu nome é " + encodeURIComponent(nome) + ". " + encodeURIComponent(mensagem) + ". ";
                     window.open(linkWhatsApp, '_blank');
                 }
             </script>
@@ -445,6 +447,7 @@
                         Endereço
                     </h3>
                     <p>Rua Teste Teste, 32 - Vila Teste - São Paulo - SP</p>
+                    <p>&copy; Desenvolvido por @Biasiolo > Pixellers Studio - 2023 </p>
                 </div>
             </div>
         </div>
