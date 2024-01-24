@@ -212,6 +212,12 @@ aside {
         max-height: 120px;
     }
 
+    .dot {
+        position: absolute;
+        width: 60px;
+        height: 60px;
+    }
+
     .dots-container {
         width: 100%;
         /* ou outra unidade fixa ou porcentagem desejada */
