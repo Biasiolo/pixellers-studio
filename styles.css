@@ -52,6 +52,10 @@ body {
     max-height: 340px;
 }
 
+#sobre h2 {
+    color:black;
+}
+
 .pix {
     color: rgb(2, 15, 7);
     font-family: 'Pacifico', cursive;
@@ -127,7 +131,7 @@ aside {
 
 /* tab content */
 .card {
-    background-color: rgba(248, 250, 249, 0.2);
+    background-color: rgba(248, 250, 249, 0.6);
     backdrop-filter: blur(10px);
     /* Ajuste o valor do desfoque conforme necessário */
     color: black;
@@ -178,6 +182,14 @@ aside {
     outline: 0; /* Remova a borda de destaque padrão no Firefox */
 }
 
+.mail {
+    color: white;
+}
+
+.mail:hover {
+    transform: scale(1.03);
+}
+
 
 #sl {
     margin-top: 8%;
@@ -226,12 +238,12 @@ footer {
 
     .dot {
         position: absolute;
-        width: 50px;
-        height: 50px;
+        width: 5vw;
+        height: 5vw;
     }
 
     .dots-container {
-        width: 100%;
+        width: 100vw;
     }
 
     .textop {
