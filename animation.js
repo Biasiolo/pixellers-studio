@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    // Crie os pontos luminosos com ícones de formigas
+    // Crie os pontos luminosos com ícones de bolhas
     createBubbles();
 
     // Animação constante dos pontos
