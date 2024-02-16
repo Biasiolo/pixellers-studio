@@ -1,24 +1,25 @@
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #648afc;
+    background-color: #48dbfb;
     max-width: 100vw;
 }
 
 /* barra de navegação */
 .navbar {
-    background-color: rgba(1, 66, 28, 0.3);
-    backdrop-filter: blur(20px);
-    border: 1px solid rgba(2, 15, 7, 0.3);
+    background-color: rgba(52, 31, 151, 0.5);
+    backdrop-filter: blur(10px);
     box-shadow: 0px 0px 10px 2px rgba(6, 98, 236, 0.3);
+    color:#00d2d3;
 }
 
 .nav .nav-link:hover {
-    background-color: black;
-    color: rgb(95, 206, 95);
+    background-color: #222f3e;
+    color: #00d2d3;
 }
 
 .nav .nav-link {
-    color: rgba(2, 15, 7, 1);
+    color: black;
+    font-size: 1.1rem;
 }
 
 .navbar-brand:hover {
@@ -38,13 +39,13 @@ body {
 }
 
 .navbar-toggler {
-    background-color: rgb(95, 206, 95);
+    background-color: #00d2d3;
 }
 
 /* seção sobre */
 #sobre {
     background-color: transparent;
-    color: black;
+    color: #222f3e;
     align-items: center;
 }
 
@@ -53,38 +54,38 @@ body {
 }
 
 #sobre h2 {
-    color:black;
+    color:#222f3e;
 }
 
 .pix {
-    color: rgb(2, 15, 7);
+    color: #222f3e;
     font-family: 'Pacifico', cursive;
 }
 
 .pix2 {
-    color: rgb(2, 15, 7);
+    color: #222f3e;
 }
 
 /* seção categorias */
 #categorias {
-    background-color: rgba(8, 9, 70, 0.6);
+    background-color: rgba(95, 39, 205, 0.3);
     backdrop-filter: blur(10px);
     box-shadow: 0px 0px 10px 2px rgba(6, 98, 236, 0.3);
-    color: rgb(2, 15, 7);
+    color: #222f3e;
 
 }
 
 .section-title {
-    color: rgb(95, 206, 95);
+    color: #222f3e;
     font-weight: 600;
 }
 
 .cardcat i {
-    color: #ce2b37;
+    color: #48dbfb;
 }
 
 .categoriah3 {
-    color: rgb(95, 206, 95);
+    color: #341f97;/*dd*/
     font-size: 22px;
     margin-top: 12px;
     font-weight: 600;
@@ -97,7 +98,7 @@ body {
 }
 
 .cardcat:hover {
-    background-color: rgba(2, 15, 7, 0.6);
+    background-color: rgba(34, 47, 62, 0.6);
     transform: scale(1.03);
 }
 
@@ -106,7 +107,7 @@ body {
 }
 
 #service {
-    color: black;
+    color: #222f3e;
 }
 
 /* barra lateral */
@@ -117,13 +118,13 @@ aside {
 }
 
 .nav-service .nav-link-active {
-    background-color: black;
-    color: #5fce5f;
+    background-color: #222f3e;
+    color: #00d2d3;
     border-radius: 8px;
 }
 
 .nav-service .nav-link:hover {
-    background-color: rgba(8, 9, 70, 0.6);
+    background-color: rgba(34, 47, 62, 0.6);
     transform: scale(1.03);
     color: white;
     box-shadow: 0px 0px 10px 2px rgba(6, 98, 236, 0.3);
@@ -134,13 +135,13 @@ aside {
     background-color: rgba(248, 250, 249, 0.6);
     backdrop-filter: blur(10px);
     /* Ajuste o valor do desfoque conforme necessário */
-    color: black;
+    color: #222f3e;
     box-shadow: 0px 0px 10px 2px rgba(6, 98, 236, 0.3);
     transition: background-color 0.4s ease, transform 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
 }
 
 .card:hover {
-    background-color: rgba(2, 15, 7, 0.6);
+    background-color: rgba(34, 47, 62, 0.6);
     transform: scale(1.03);
     color: white;
     box-shadow: 0px 0px 10px 2px rgba(6, 98, 236, 0.3);
@@ -158,7 +159,7 @@ aside {
 
 #contato button {
     background-color: #25D366;
-    color: rgb(2, 15, 7);
+    color: #222f3e;
 }
 
 #contato button:hover {
@@ -167,17 +168,17 @@ aside {
 }
 
 #contato {
-    background-color: rgba(8, 9, 70, 0.6);
+    background-color: rgba(8, 9, 70, 0.4);
     backdrop-filter: blur(10px);
     box-shadow: 0px 0px 10px 2px rgba(6, 98, 236, 0.3);
-    color: rgb(2, 15, 7);
+    color: #222f3e;
 }
 
 .formu {
-    color: #25D366;
+    color: #00d2d3;
 }
 .form-control:focus {
-    border-color: #25D366; /* Cor de destaque quando em foco */
+    border-color: #00d2d3; /* Cor de destaque quando em foco */
     box-shadow: 0 0 0 0.2rem rgba(6, 98, 236, 0.3); /* Sombra de destaque */
     outline: 0; /* Remova a borda de destaque padrão no Firefox */
 }
