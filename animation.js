@@ -16,7 +16,7 @@ function createBubbles() {
     });
 
     // Número de pontos
-    var numberOfDots = 40;
+    var numberOfDots = 12;
 
     for (var i = 0; i < numberOfDots; i++) {
         var dot = $("<div>").addClass("dot").appendTo(dotsContainer);
